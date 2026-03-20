@@ -1,22 +1,22 @@
 /*
-  Lab 4 — CSS for Dark Mode
-  ===========================
-  說明 Instructions:
-    The top section is the light mode styles — pre-provided, do not change.
-    Scroll down to find 5 TODOs. You will write the DARK MODE colors there.
+  Lab 4 — 深色模式的 CSS
+  ========================
+  說明：
+    上方的區塊是淺色模式的樣式 — 已預先提供，不要修改。
+    往下捲動找到 5 個 TODO。你要在那裡寫「深色模式」的顏色。
 
-  How dark mode works:
-    JavaScript adds the class "dark" to <body> when the button is clicked:
+  深色模式的運作原理：
+    當按鈕被點擊，JavaScript 會把 "dark" class 加到 <body>：
       <body class="dark">
 
-    CSS can target that with:
+    CSS 就可以用這個來套用深色樣式：
       body.dark { background-color: ...; }
       body.dark header { background-color: ...; }
 
-    When the class is removed, the page goes back to normal (light mode).
+    當 class 被移除，頁面就恢復正常（淺色模式）。
 */
 
-/* ── LIGHT MODE (pre-provided) ───────────────────────────────────── */
+/* ── 淺色模式（已預先提供）────────────────────────────────────────── */
 
 * {
   margin: 0;
@@ -130,39 +130,39 @@ section h2 {
   color: #e94560;
 }
 
-/* ── DARK MODE — YOUR WORK STARTS HERE ───────────────────────────── */
+/* ── 深色模式 — 從這裡開始你的工作 ──────────────────────────────── */
 /*
-  These rules only apply when <body> has the class "dark".
-  Pick colors that look good on a dark background.
+  這些規則只有在 <body> 有 "dark" class 時才套用。
+  選擇在深色背景下好看的顏色。
 
-  Dark color suggestions:
-    Very dark background : #121212  or  #0d0d0d
-    Dark card background : #1e1e1e  or  #1a1a2e
-    Light text on dark   : #e0e0e0  or  #ffffff
-    Muted border color   : #333333  or  #444444
-    Accent (stays same)  : #e94560
+  深色顏色建議：
+    非常深的背景色：#121212  或  #0d0d0d
+    深色卡片背景色：#1e1e1e  或  #1a1a2e
+    深色背景上的淺色文字：#e0e0e0  或  #ffffff
+    低調的邊框顏色：#333333  或  #444444
+    強調色（保持不變）：#e94560
 */
 
 body.dark {
-  /* TODO 2: Set the background color for dark mode (the whole page) */
+  /* TODO 2：設定深色模式的背景顏色（整個頁面） */
   background-color: ___;
 
-  /* TODO 3: Set the text color for dark mode (should be light) */
+  /* TODO 3：設定深色模式的文字顏色（應該是淺色） */
   color: ___;
 }
 
 body.dark section h2 {
-  /* TODO 4: Set the heading color in dark mode */
+  /* TODO 4：設定深色模式下的標題顏色 */
   color: ___;
 }
 
 body.dark .project-card {
-  /* TODO 5: Set the project card background and border in dark mode */
+  /* TODO 5：設定深色模式下作品卡片的背景和邊框 */
   background-color: ___;
   border-color: ___;
 }
 
 body.dark #contact a {
-  /* TODO 6: Set the contact link color in dark mode */
+  /* TODO 6：設定深色模式下聯絡連結的顏色 */
   color: ___;
 }

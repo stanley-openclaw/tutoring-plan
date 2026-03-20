@@ -1,4 +1,4 @@
-/* ANSWER KEY — Lab 4 */
+/* 解答 — Lab 4 */
 
 // TODO 2 ✅
 const toggleBtn = document.getElementById("dark-toggle");
@@ -19,12 +19,12 @@ toggleBtn.addEventListener("click", function () {
     toggleBtn.textContent = "☀️";
   }
 
-  // BONUS ✅ — save preference
+  // 加分題 ✅ — 儲存偏好設定
   localStorage.setItem("theme", body.classList.contains("dark") ? "dark" : "light");
 
 });
 
-// BONUS ✅ — load preference on page open
+// 加分題 ✅ — 頁面開啟時載入偏好設定
 window.addEventListener("load", function () {
   if (localStorage.getItem("theme") === "dark") {
     body.classList.add("dark");

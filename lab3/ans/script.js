@@ -1,6 +1,6 @@
-/* ANSWER KEY — Lab 3 */
+/* 解答 — Lab 3 */
 
-// ── PART A: Variables ─────────────────────────────────────────────
+// ── 第一部分：變數 ────────────────────────────────────────────────
 
 // TODO 1 ✅
 const myName = "Sunney";
@@ -11,10 +11,10 @@ const targetYear = 2028;
 const yearsUntil = targetYear - 2026;
 
 console.log("Hello, I am " + myName + ". University in " + yearsUntil + " years!");
-// Console output: "Hello, I am Sunney. University in 2 years!"
+// console 輸出："Hello, I am Sunney. University in 2 years!"
 
 
-// ── PART B: Function ──────────────────────────────────────────────
+// ── 第二部分：函式 ────────────────────────────────────────────────
 
 function greet(name) {
   // TODO 3 ✅
@@ -22,10 +22,10 @@ function greet(name) {
 }
 
 console.log(greet(myName));
-// Console output: "Hi, I'm Sunney 👋"
+// console 輸出："Hi, I'm Sunney 👋"
 
 
-// ── PART C: DOM Manipulation ──────────────────────────────────────
+// ── 第三部分：DOM 操作 ────────────────────────────────────────────
 
 window.addEventListener("load", function () {
 

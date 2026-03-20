@@ -1,92 +1,92 @@
-# Lab 5 — Deploy to GitHub Pages 🚀
+# Lab 5 — 部署到 GitHub Pages
 
-You've built a real portfolio. Now let's put it on the internet.
-
----
-
-## What is GitHub Pages?
-
-GitHub Pages turns any repository into a free, public website.
-Your URL will be: `https://YOUR-USERNAME.github.io/YOUR-REPO-NAME`
+你已經建好了一個真實的作品集。現在讓我們把它放到網路上。
 
 ---
 
-## Step-by-Step
+## 什麼是 GitHub Pages？
 
-### Step 1 — Finish your portfolio files
-
-Make sure you've filled in all 10 TODOs in `exercise/`:
-- [ ] `index.html` — your name, about, skills, two projects, email (TODOs 1–8)
-- [ ] `script.js` — your name and university year (TODOs 9–10)
-
-Open `index.html` with Live Server and check that it looks right before deploying.
+GitHub Pages 可以把任何 repository 變成一個免費的公開網站。
+你的網址會是：`https://你的帳號名稱.github.io/repository名稱`
 
 ---
 
-### Step 2 — Create a GitHub repository
+## 步驟說明
 
-1. Go to https://github.com and log in
-2. Click the **+** icon (top right) → **New repository**
-3. Name it: `portfolio` (or `YOUR-USERNAME.github.io` for a cleaner URL)
-4. Set it to **Public**
-5. Click **Create repository** — leave it empty for now
+### 第一步 — 完成你的作品集檔案
+
+確認你已經填好 `exercise/` 裡的所有 10 個 TODO：
+- [ ] `index.html` — 你的名字、自介、技能、兩個專案、電子郵件（TODO 1–8）
+- [ ] `script.js` — 你的名字和目標入學年份（TODO 9–10）
+
+部署前，先用 Live Server 開啟 `index.html` 確認看起來沒問題。
 
 ---
 
-### Step 3 — Upload your files
+### 第二步 — 建立 GitHub Repository
 
-On the new (empty) repository page:
+1. 前往 https://github.com 並登入
+2. 點擊右上角的 **+** 圖示 → **New repository**
+3. 命名為：`portfolio`（或 `你的帳號名稱.github.io` 可以得到更簡潔的網址）
+4. 設定為 **Public**（公開）
+5. 點擊 **Create repository** — 現在保持空白就好
 
-1. Click **uploading an existing file**
-2. Drag and drop your three files:
+---
+
+### 第三步 — 上傳你的檔案
+
+在新建的（空白）repository 頁面：
+
+1. 點擊 **uploading an existing file**
+2. 把你的三個檔案拖放進去：
    - `index.html`
    - `style.css`
    - `script.js`
-3. Scroll down → click **Commit changes**
+3. 往下捲 → 點擊 **Commit changes**
 
 ---
 
-### Step 4 — Enable GitHub Pages
+### 第四步 — 啟用 GitHub Pages
 
-1. In your repository, click **Settings** (top tab)
-2. In the left sidebar, click **Pages**
-3. Under **Branch**, select `main` → folder `/root`
-4. Click **Save**
+1. 在你的 repository 裡，點擊 **Settings**（上方分頁）
+2. 在左側選單，點擊 **Pages**
+3. 在 **Branch** 底下，選擇 `main` → 資料夾選 `/root`
+4. 點擊 **Save**
 
-GitHub will show: *"Your site is being deployed..."*
+GitHub 會顯示：*「Your site is being deployed...」*
 
-Wait about 1–2 minutes, then refresh.
+等待約 1–2 分鐘，然後重新整理頁面。
 
 ---
 
-### Step 5 — Visit your live site! 🎉
+### 第五步 — 查看你的線上網站！
 
-Your URL will appear at the top of the Pages settings page:
+你的網址會出現在 Pages 設定頁面的最上方：
 
 ```
-https://YOUR-USERNAME.github.io/portfolio
+https://你的帳號名稱.github.io/portfolio
 ```
 
-Open it on your phone too — check that the responsive design works!
+也在手機上開啟看看 — 確認響應式設計正常運作！
 
 ---
 
-## Share It
+## 分享它
 
-- Send the URL to your teacher
-- Save it somewhere — you'll add it to your university application (備審資料)
-- Share on LINE or Instagram if you're proud of it 😊
+- 把網址傳給老師
+- 存起來 — 你之後會把它加進大學的備審資料裡
+- 如果你覺得很棒，也可以分享到 LINE 或 Instagram 😊
 
 ---
 
-## What's Next?
+## 接下來可以做什麼？
 
-Once it's live, you can keep improving it:
+上線後，你可以持續改進它：
 
-| Idea | How |
-|------|-----|
-| Add a profile photo | `<img src="photo.jpg" alt="Sunney">` |
-| Change the color theme | Edit `--accent` color in `style.css` |
-| Add a new project | Copy a `.project-card` block in `index.html` |
-| Smooth scroll between sections | `scroll-behavior: smooth` on `html {}` in CSS |
-| Animate skill tags on load | CSS `@keyframes` + `animation` property |
+| 想法 | 作法 |
+|------|------|
+| 加入大頭照 | `<img src="photo.jpg" alt="Sunney">` |
+| 更換配色主題 | 修改 `style.css` 裡的 `--accent` 顏色 |
+| 新增一個專案 | 在 `index.html` 裡複製一個 `.project-card` 區塊 |
+| 區塊之間平滑捲動 | 在 CSS 的 `html {}` 裡加 `scroll-behavior: smooth` |
+| 讓技能標籤載入時有動畫 | CSS `@keyframes` + `animation` 屬性 |

@@ -1,16 +1,16 @@
 /*
   Lab 5 — script.js
   ==================
-  The dark mode toggle is pre-provided from Lab 4 — no changes needed there.
+  深色模式切換的程式碼已從 Lab 4 沿用 — 不需要修改那個部分。
 
-  TODO 9: Replace "___" with YOUR real name.
-  TODO 10: Replace ___ with the year YOU want to enter university (e.g. 2028).
+  TODO 9：把 "___" 換成你真實的名字。
+  TODO 10：把 ___ 換成你想進大學的年份（例如 2028）。
 */
 
-// TODO 9: your name
+// TODO 9：你的名字
 const myName = "___";
 
-// TODO 10: your university target year
+// TODO 10：你的目標大學入學年份
 const targetYear = ___;
 
 const yearsUntil = targetYear - 2026;
@@ -28,7 +28,7 @@ window.addEventListener("load", function () {
   }
 });
 
-// ── Dark Mode Toggle (pre-provided from Lab 4) ────────────────────
+// ── 深色模式切換（從 Lab 4 沿用）────────────────────────────────
 const toggleBtn = document.getElementById("dark-toggle");
 const body = document.body;
 

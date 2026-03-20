@@ -1,20 +1,19 @@
 /*
-  Lab 2 — CSS 樣式 (CSS Styling)
-  ================================
-  目標 Goal:
-    Make your portfolio page look great by filling in the CSS properties.
+  Lab 2 — CSS 樣式
+  ==================
+  目標：填入 CSS 屬性，讓你的作品集頁面變得好看。
 
-  說明 Instructions:
-    Find every ___ and replace it with a correct CSS value.
-    Save the file — Live Server will update the page instantly!
+  說明：
+    找到每一個 ___ 並換成正確的 CSS 值。
+    存檔後，Live Server 會立即更新頁面！
 
-  小提示 Hints:
-    Colors: use names ("white", "navy") or hex codes ("#1a1a2e")
-    Font sizes: use px — e.g. 16px, 28px, 52px
-    Spacing (margin / padding): also use px — e.g. 12px, 50px
+  小提示：
+    顏色：用名稱（"white"、"navy"）或十六進位碼（"#1a1a2e"）
+    字體大小：用 px — 例如 16px、28px、52px
+    間距（margin / padding）：也用 px — 例如 12px、50px
 */
 
-/* ── GLOBAL RESET ──────────────────────────── */
+/* ── 全域重置 ────────────────────────────── */
 * {
   margin: 0;
   padding: 0;
@@ -22,24 +21,24 @@
 }
 
 body {
-  /* TODO 1: Pick a font. Try "Arial", "Georgia", or "sans-serif" */
+  /* TODO 1：選一種字型。試試 "Arial"、"Georgia" 或 "sans-serif" */
   font-family: ___;
 
-  /* TODO 2: Set a background color for the whole page */
+  /* TODO 2：設定整個頁面的背景顏色 */
   background-color: ___;
 
-  /* TODO 3: Set the main text color */
+  /* TODO 3：設定主要文字顏色 */
   color: ___;
 
   line-height: 1.6;
 }
 
-/* ── HEADER ──────────────────────────────── */
+/* ── 頁首 HEADER ──────────────────────────── */
 header {
-  /* TODO 4: Choose a background color for the header (make it stand out!) */
+  /* TODO 4：為頁首選一個背景顏色（讓它顯眼一點！） */
   background-color: ___;
 
-  /* TODO 5: Set the text color so it's readable against the header background */
+  /* TODO 5：設定文字顏色，讓它在頁首背景上清楚可讀 */
   color: ___;
 
   text-align: center;
@@ -47,18 +46,18 @@ header {
 }
 
 header h1 {
-  /* TODO 6: Make your name BIG — try something between 40px and 64px */
+  /* TODO 6：把你的名字放大 — 試試 40px 到 64px 之間的大小 */
   font-size: ___;
 }
 
 header p {
   font-size: 18px;
-  /* TODO 7: Add a little space above the subtitle, e.g. 10px */
+  /* TODO 7：在副標題上方加一點空間，例如 10px */
   margin-top: ___;
   opacity: 0.85;
 }
 
-/* ── SECTIONS ────────────────────────────── */
+/* ── 各區塊 SECTIONS ─────────────────────── */
 section {
   padding: 50px 20px;
   max-width: 800px;
@@ -66,17 +65,17 @@ section {
 }
 
 section h2 {
-  /* TODO 8: Set the font size for section headings, e.g. 28px */
+  /* TODO 8：設定區塊標題的字體大小，例如 28px */
   font-size: ___;
 
-  /* TODO 9: Add space below the heading so content isn't cramped, e.g. 16px */
+  /* TODO 9：在標題下方加空間，讓內容不那麼擁擠，例如 16px */
   margin-bottom: ___;
 
-  /* TODO 10: Pick an accent color — try matching your header background */
+  /* TODO 10：選一個強調色 — 試試跟頁首背景顏色搭配 */
   color: ___;
 }
 
-/* ── SKILLS LIST ─────────────────────────── */
+/* ── 技能列表 SKILLS ─────────────────────── */
 #skills ul {
   list-style: none;
   display: flex;
@@ -85,10 +84,10 @@ section h2 {
 }
 
 #skills li {
-  /* TODO 11: Give each skill tag a background color */
+  /* TODO 11：給每個技能標籤一個背景顏色 */
   background-color: ___;
 
-  /* TODO 12: Set the text color inside each skill tag */
+  /* TODO 12：設定技能標籤裡的文字顏色 */
   color: ___;
 
   padding: 6px 16px;
@@ -96,16 +95,16 @@ section h2 {
   font-size: 14px;
 }
 
-/* ── PROJECT CARD ────────────────────────── */
+/* ── 作品卡片 PROJECT CARD ────────────────── */
 .project-card {
-  /* TODO 13: Add a border. Format: "2px solid #color"
-     e.g. "2px solid #cccccc" */
+  /* TODO 13：加上邊框。格式："2px solid #顏色碼"
+     例如："2px solid #cccccc" */
   border: ___;
 
   border-radius: 8px;
   padding: 20px;
 
-  /* TODO 14: Give the card a background color to make it stand out */
+  /* TODO 14：給卡片一個背景顏色，讓它突出 */
   background-color: ___;
 }
 
@@ -114,9 +113,9 @@ section h2 {
   margin-bottom: 8px;
 }
 
-/* ── CONTACT LINK ────────────────────────── */
+/* ── 聯絡連結 CONTACT ────────────────────── */
 #contact a {
-  /* TODO 15: Set a color for your email link */
+  /* TODO 15：設定電子郵件連結的顏色 */
   color: ___;
   text-decoration: none;
   font-size: 18px;
@@ -124,8 +123,8 @@ section h2 {
 }
 
 #contact a:hover {
-  /* TODO 16: What happens when someone hovers over the link?
-     Try: text-decoration: underline;
-     Or change the color to something else. */
+  /* TODO 16：滑鼠移過連結時要發生什麼？
+     試試：text-decoration: underline;
+     或把顏色改成其他顏色。 */
   ___;
 }
