@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+  Lab 6 — My First React App
+  ============================
+  目標 Goal:
+    Build an interactive profile card using React components.
+    Same portfolio content as before — but now built the "modern" way!
+
+  Key ideas:
+    Component  = a JavaScript function that returns HTML-like code (JSX)
+    Props      = data you pass INTO a component (like function arguments)
+    useState   = lets a component "remember" a changing value
+
+  ⚠️  How to run this file:
+    Open this folder in VS Code →
+    right-click index.html → "Open with Live Server"
+
+    (Opening index.html directly from your file manager won't work
+     because React + Babel needs a real web server.)
+-->
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab 6 — My First React App</title>
+
+  <!-- React 18 — loaded from the internet, no npm needed! -->
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+  <!-- Babel — lets us write JSX (HTML inside JS) directly in the browser -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- React will build everything inside this single <div> -->
+  <div id="root"></div>
+
+  <!-- type="text/babel" tells Babel to process App.js before running it -->
+  <script type="text/babel" src="App.js"></script>
+
+</body>
+</html>

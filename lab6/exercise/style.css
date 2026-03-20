@@ -1,0 +1,81 @@
+/* Lab 6 — pre-provided styles, no changes needed */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f2f5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  color: #333;
+}
+
+h1 {
+  margin-bottom: 32px;
+  font-size: 1.5rem;
+  color: #1a1a2e;
+}
+
+/* ── Profile Card ─────────────────────────────── */
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 36px 32px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 8px;
+  color: #1a1a2e;
+}
+
+.card .bio {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+/* ── Skill Badges ─────────────────────────────── */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 28px;
+}
+
+.badge {
+  background: #e94560;
+  color: white;
+  padding: 4px 16px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+}
+
+/* ── Like Button ──────────────────────────────── */
+.like-btn {
+  background: white;
+  border: 2px solid #e94560;
+  color: #e94560;
+  padding: 10px 28px;
+  border-radius: 24px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.like-btn:hover {
+  background: #e94560;
+  color: white;
+}

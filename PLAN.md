@@ -33,7 +33,7 @@
 |---------|-------|-------------|
 | **Today (Session 1)** | Setup + HTML/CSS foundations + fill-in exercises | A styled portfolio page on GitHub Pages |
 | Session 2 | Customize content, add JavaScript interactions | Polished portfolio, own domain (optional) |
-| Session 3+ | React intro (if needed), extra sections | Production-ready portfolio |
+| Session 3+ | React intro (lab6) — components, props, state | Interactive React portfolio card |
 
 ---
 
@@ -196,6 +196,16 @@ lab5/               ← Deploy
 │   ├── style.css         (pre-provided, fully complete)
 │   └── script.js         (2 TODOs — your name + university year)
 └── GUIDE.md              (step-by-step GitHub Pages deployment)
+
+lab6/               ← React Introduction
+├── exercise/
+│   ├── index.html        (pre-provided — CDN React + Babel setup)
+│   ├── style.css         (pre-provided — card & badge styles)
+│   └── App.js            (5 TODOs — components, props, useState, onClick)
+└── ans/
+    ├── index.html
+    ├── style.css
+    └── App.js            (completed example)
 ```
 
 | Lab | File to edit | TODOs | Concepts |
@@ -205,6 +215,7 @@ lab5/               ← Deploy
 | lab3 | `exercise/script.js` | 5 core + 2 bonus | Variables, functions, DOM manipulation |
 | lab4 | `exercise/style.css` + `script.js` | 6 core + 2 bonus | Dark mode toggle, classList, localStorage |
 | lab5 | `exercise/index.html` + `script.js` | 10 | Personalize content, then deploy |
+| lab6 | `exercise/App.js` | 5 | React components, props, useState, onClick |
 
 Each lab builds on the previous one. Each TODO requires at most one line — just fill and save, and Live Server updates instantly.
 
@@ -239,7 +250,7 @@ Each lab builds on the previous one. Each TODO requires at most one line — jus
 
 - Rebuild the portfolio from scratch using her own content and design
 - Add more sections (Projects, Skills with icons, Contact form)
-- Intro to React — only if she's curious and time allows
+- Lab 6: React intro — components, props, useState (no npm needed, uses CDN)
 
 ---
 
