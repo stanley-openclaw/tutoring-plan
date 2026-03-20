@@ -14,9 +14,9 @@ toggleBtn.addEventListener("click", function () {
 
   // TODO 6 ✅
   if (body.classList.contains("dark")) {
-    toggleBtn.textContent = "☀️";
-  } else {
     toggleBtn.textContent = "🌙";
+  } else {
+    toggleBtn.textContent = "☀️";
   }
 
   // BONUS ✅ — save preference
@@ -28,6 +28,6 @@ toggleBtn.addEventListener("click", function () {
 window.addEventListener("load", function () {
   if (localStorage.getItem("theme") === "dark") {
     body.classList.add("dark");
-    toggleBtn.textContent = "☀️";
+    toggleBtn.textContent = "🌙";
   }
 });

@@ -44,10 +44,12 @@ toggleBtn.addEventListener("___", function () {
   //   }
   // If dark mode is ON  → show sun icon ☀️
   // If dark mode is OFF → show moon icon 🌙
+  // Current mode is dark → show moon 🌙
+  // Current mode is light → show sun ☀️
   if (body.classList.contains("dark")) {
-    toggleBtn.textContent = "☀️";
-  } else {
     toggleBtn.textContent = "🌙";
+  } else {
+    toggleBtn.textContent = "☀️";
   }
 
 });
