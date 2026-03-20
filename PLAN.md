@@ -179,6 +179,23 @@ lab3/               ← JavaScript
     ├── index.html
     ├── style.css
     └── script.js         (completed example)
+
+lab4/               ← Dark Mode Toggle
+├── exercise/
+│   ├── index.html        (1 TODO — add id to the toggle button)
+│   ├── style.css         (5 TODOs — dark mode colors for body.dark)
+│   └── script.js         (5 TODOs — getElementById, classList.toggle, textContent + bonus localStorage)
+└── ans/
+    ├── index.html
+    ├── style.css         (completed example)
+    └── script.js
+
+lab5/               ← Deploy
+├── exercise/
+│   ├── index.html        (10 TODOs — fill in YOUR real content)
+│   ├── style.css         (pre-provided, fully complete)
+│   └── script.js         (2 TODOs — your name + university year)
+└── GUIDE.md              (step-by-step GitHub Pages deployment)
 ```
 
 | Lab | File to edit | TODOs | Concepts |
@@ -186,6 +203,8 @@ lab3/               ← JavaScript
 | lab1 | `exercise/index.html` | 8 | Tags, attributes, semantic structure |
 | lab2 | `exercise/style.css` | 16 | Colors, fonts, spacing, hover effects |
 | lab3 | `exercise/script.js` | 5 core + 2 bonus | Variables, functions, DOM manipulation |
+| lab4 | `exercise/style.css` + `script.js` | 6 core + 2 bonus | Dark mode toggle, classList, localStorage |
+| lab5 | `exercise/index.html` + `script.js` | 10 | Personalize content, then deploy |
 
 Each lab builds on the previous one. Each TODO requires at most one line — just fill and save, and Live Server updates instantly.
 
