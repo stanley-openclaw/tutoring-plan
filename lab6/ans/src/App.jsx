@@ -1,27 +1,27 @@
-/* ANSWER KEY — Lab 6 */
+/* 解答 — Lab 6 */
 
 import { useState } from 'react'
 
-// ── Component 1: SkillBadge ───────────────────────────────────────────────
+// ── 元件 1：SkillBadge ────────────────────────────────────────────────────
 
 function SkillBadge({ skill }) {
   return (
-    <span className="badge">{skill}</span>  // TODO 1 ✅  {skill} displays the prop
+    <span className="badge">{skill}</span>  // TODO 1 ✅  {skill} 顯示傳入的 prop
   )
 }
 
-// ── Component 2: ProfileCard ──────────────────────────────────────────────
+// ── 元件 2：ProfileCard ───────────────────────────────────────────────────
 
 function ProfileCard({ name, bio }) {
 
-  const [likes, setLikes] = useState(0)  // TODO 2 ✅  start at 0
+  const [likes, setLikes] = useState(0)  // TODO 2 ✅  初始值設為 0
 
   const skills = ['HTML', 'CSS', 'JavaScript', 'React']
 
   return (
     <div className="card">
 
-      <h2>{name}</h2>  {/* TODO 3 ✅  {name} displays the prop */}
+      <h2>{name}</h2>  {/* TODO 3 ✅  {name} 顯示傳入的 prop */}
 
       <p className="bio">{bio}</p>
 
@@ -31,7 +31,7 @@ function ProfileCard({ name, bio }) {
         ))}
       </div>
 
-      {/* TODO 4 ✅  () => setLikes(likes + 1) adds 1 on each click */}
+      {/* TODO 4 ✅  () => setLikes(likes + 1) 每次點擊加 1 */}
       <button className="like-btn" onClick={() => setLikes(likes + 1)}>
         ❤️ {likes}
       </button>
@@ -40,14 +40,14 @@ function ProfileCard({ name, bio }) {
   )
 }
 
-// ── Component 3: App ──────────────────────────────────────────────────────
+// ── 元件 3：App ───────────────────────────────────────────────────────────
 
 function App() {
   return (
     <div>
       <h1>Lab 6 — My First React App</h1>
 
-      {/* TODO 5 ✅  real name and bio passed as props */}
+      {/* TODO 5 ✅  把真實姓名和自介當作 props 傳入 */}
       <ProfileCard
         name="Sunney"
         bio="High school student from Taipei, passionate about design and technology."

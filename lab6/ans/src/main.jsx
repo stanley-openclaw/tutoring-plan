@@ -1,6 +1,6 @@
-// Lab 6 — pre-provided, no changes needed here.
-// This is the entry point: it finds <div id="root"> in index.html
-// and tells React to render the App component inside it.
+// Lab 6 解答 — 這個檔案已經幫你準備好了，不需要修改。
+// 這是程式的進入點：它找到 index.html 裡的 <div id="root">，
+// 然後告訴 React 把 App 元件渲染到裡面。
 
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
