@@ -1,0 +1,109 @@
+/* ANSWER KEY — Lab 2 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* TODO 1 ✅ */
+  font-family: "Arial", sans-serif;
+
+  /* TODO 2 ✅ */
+  background-color: #f5f5f5;
+
+  /* TODO 3 ✅ */
+  color: #222222;
+
+  line-height: 1.6;
+}
+
+header {
+  /* TODO 4 ✅ */
+  background-color: #1a1a2e;
+
+  /* TODO 5 ✅ */
+  color: #ffffff;
+
+  text-align: center;
+  padding: 60px 20px;
+}
+
+header h1 {
+  /* TODO 6 ✅ */
+  font-size: 52px;
+}
+
+header p {
+  font-size: 18px;
+  /* TODO 7 ✅ */
+  margin-top: 12px;
+  opacity: 0.85;
+}
+
+section {
+  padding: 50px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+section h2 {
+  /* TODO 8 ✅ */
+  font-size: 28px;
+
+  /* TODO 9 ✅ */
+  margin-bottom: 16px;
+
+  /* TODO 10 ✅ */
+  color: #1a1a2e;
+}
+
+#skills ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#skills li {
+  /* TODO 11 ✅ */
+  background-color: #1a1a2e;
+
+  /* TODO 12 ✅ */
+  color: #ffffff;
+
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.project-card {
+  /* TODO 13 ✅ */
+  border: 2px solid #cccccc;
+
+  border-radius: 8px;
+  padding: 20px;
+
+  /* TODO 14 ✅ */
+  background-color: #ffffff;
+}
+
+.project-card h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+#contact a {
+  /* TODO 15 ✅ */
+  color: #1a1a2e;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#contact a:hover {
+  /* TODO 16 ✅ */
+  text-decoration: underline;
+  color: #e94560;
+}

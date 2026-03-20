@@ -1,15 +1,17 @@
 /*
-  練習 2 — CSS 樣式 (CSS Styling)
-  目標: 讓你的網頁看起來好看
-  Goal: Make your portfolio page look great!
+  Lab 2 — CSS 樣式 (CSS Styling)
+  ================================
+  目標 Goal:
+    Make your portfolio page look great by filling in the CSS properties.
 
-  說明: 找到所有寫著 "___" 的地方，把它們換成正確的值。
-  Instructions: Fill in every ___ with a correct CSS value.
+  說明 Instructions:
+    Find every ___ and replace it with a correct CSS value.
+    Save the file — Live Server will update the page instantly!
 
-  小提示 / Hints:
-    - Colors can be names ("white", "black", "navy") or hex codes ("#ffffff")
-    - Font sizes use px, e.g. 16px, 24px, 48px
-    - Spacing (margin/padding) also uses px
+  小提示 Hints:
+    Colors: use names ("white", "navy") or hex codes ("#1a1a2e")
+    Font sizes: use px — e.g. 16px, 28px, 52px
+    Spacing (margin / padding): also use px — e.g. 12px, 50px
 */
 
 /* ── GLOBAL RESET ──────────────────────────── */
@@ -20,7 +22,7 @@
 }
 
 body {
-  /* TODO 1: Pick a font-family. Try: "Arial", "Georgia", or "sans-serif" */
+  /* TODO 1: Pick a font. Try "Arial", "Georgia", or "sans-serif" */
   font-family: ___;
 
   /* TODO 2: Set a background color for the whole page */
@@ -34,13 +36,12 @@ body {
 
 /* ── HEADER ──────────────────────────────── */
 header {
-  /* TODO 4: Choose a background color for the header (make it stand out) */
+  /* TODO 4: Choose a background color for the header (make it stand out!) */
   background-color: ___;
 
-  /* TODO 5: Set the text color inside the header so it's readable */
+  /* TODO 5: Set the text color so it's readable against the header background */
   color: ___;
 
-  /* Leave these as-is — they center everything nicely */
   text-align: center;
   padding: 60px 20px;
 }
@@ -52,34 +53,31 @@ header h1 {
 
 header p {
   font-size: 18px;
-  /* TODO 7: Add a little space above the subtitle (e.g. 10px) */
+  /* TODO 7: Add a little space above the subtitle, e.g. 10px */
   margin-top: ___;
   opacity: 0.85;
 }
 
 /* ── SECTIONS ────────────────────────────── */
 section {
-  /* This adds breathing room inside each section */
   padding: 50px 20px;
-  /* Center the content and limit its width */
   max-width: 800px;
   margin: 0 auto;
 }
 
 section h2 {
-  /* TODO 8: Set the font size for section headings (e.g. 28px) */
+  /* TODO 8: Set the font size for section headings, e.g. 28px */
   font-size: ___;
 
-  /* TODO 9: Add some space below the heading so text doesn't feel cramped */
+  /* TODO 9: Add space below the heading so content isn't cramped, e.g. 16px */
   margin-bottom: ___;
 
-  /* TODO 10: Pick an accent color for the heading — should match your header */
+  /* TODO 10: Pick an accent color — try matching your header background */
   color: ___;
 }
 
 /* ── SKILLS LIST ─────────────────────────── */
 #skills ul {
-  /* Remove the default bullet style */
   list-style: none;
   display: flex;
   flex-wrap: wrap;
@@ -90,7 +88,7 @@ section h2 {
   /* TODO 11: Give each skill tag a background color */
   background-color: ___;
 
-  /* TODO 12: Make the skill tag text a readable color */
+  /* TODO 12: Set the text color inside each skill tag */
   color: ___;
 
   padding: 6px 16px;
@@ -100,13 +98,14 @@ section h2 {
 
 /* ── PROJECT CARD ────────────────────────── */
 .project-card {
-  /* TODO 13: Add a border. Format: "2px solid #color"  e.g. "2px solid #ccc" */
+  /* TODO 13: Add a border. Format: "2px solid #color"
+     e.g. "2px solid #cccccc" */
   border: ___;
 
   border-radius: 8px;
   padding: 20px;
 
-  /* TODO 14: Give the card a subtle background to separate it from the page */
+  /* TODO 14: Give the card a background color to make it stand out */
   background-color: ___;
 }
 
@@ -117,7 +116,7 @@ section h2 {
 
 /* ── CONTACT LINK ────────────────────────── */
 #contact a {
-  /* TODO 15: Style your email link — give it a color and remove underline */
+  /* TODO 15: Set a color for your email link */
   color: ___;
   text-decoration: none;
   font-size: 18px;
@@ -125,7 +124,8 @@ section h2 {
 }
 
 #contact a:hover {
-  /* TODO 16: What should happen when someone hovers over your link?
-     Try: text-decoration: underline;  or change the color */
+  /* TODO 16: What happens when someone hovers over the link?
+     Try: text-decoration: underline;
+     Or change the color to something else. */
   ___;
 }

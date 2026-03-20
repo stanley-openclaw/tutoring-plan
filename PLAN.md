@@ -155,16 +155,39 @@ Fill-in-the-blank JS — Sunney completes **5 core TODOs** + 2 optional bonus:
 
 ## 📁 Exercise Files
 
-All exercises live in the `exercises/` folder:
+```
+lab1/               ← HTML Structure
+├── exercise/
+│   └── index.html        (8 TODOs — fill in your content)
+└── ans/
+    └── index.html        (completed example)
 
-| File | Exercise | Concepts |
-|------|----------|----------|
-| `exercise-1-html.html` | Fill in the HTML structure | Tags, attributes, semantic sections |
-| `exercise-2-style.css` | Fill in the CSS styles | Selectors, colors, spacing, layout |
-| `exercise-3-script.js` | Fill in the JavaScript | Variables, functions, DOM manipulation |
+lab2/               ← CSS Styling
+├── exercise/
+│   ├── index.html        (pre-provided from lab1 ans)
+│   └── style.css         (16 TODOs — fill in the styles)
+└── ans/
+    ├── index.html
+    └── style.css         (completed example)
 
-Each file has `// TODO N:` or `<!-- TODO N: -->` comments guiding every blank.
-No blank requires writing more than one line — just fill and save.
+lab3/               ← JavaScript
+├── exercise/
+│   ├── index.html        (pre-provided, has id="main-title" + button)
+│   ├── style.css         (pre-provided from lab2 ans)
+│   └── script.js         (7 TODOs — fill in the JS)
+└── ans/
+    ├── index.html
+    ├── style.css
+    └── script.js         (completed example)
+```
+
+| Lab | File to edit | TODOs | Concepts |
+|-----|-------------|-------|----------|
+| lab1 | `exercise/index.html` | 8 | Tags, attributes, semantic structure |
+| lab2 | `exercise/style.css` | 16 | Colors, fonts, spacing, hover effects |
+| lab3 | `exercise/script.js` | 5 core + 2 bonus | Variables, functions, DOM manipulation |
+
+Each lab builds on the previous one. Each TODO requires at most one line — just fill and save, and Live Server updates instantly.
 
 ---
 
