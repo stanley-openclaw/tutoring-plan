@@ -50,19 +50,23 @@ header p {
   opacity: 0.85;
 }
 
-header button {
-  margin-top: 20px;
-  padding: 10px 24px;
+#dark-toggle {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  width: 42px;
+  height: 42px;
   background-color: #e94560;
   color: #ffffff;
   border: none;
-  border-radius: 6px;
-  font-size: 16px;
+  border-radius: 50%;
+  font-size: 20px;
   cursor: pointer;
+  z-index: 1000;
   transition: background-color 0.3s;
 }
 
-header button:hover {
+#dark-toggle:hover {
   background-color: #c73652;
 }
 

@@ -34,13 +34,13 @@ const body = document.body;
 
 toggleBtn.addEventListener("click", function () {
   body.classList.toggle("dark");
-  toggleBtn.textContent = body.classList.contains("dark") ? "☀️ Light Mode" : "🌙 Dark Mode";
+  toggleBtn.textContent = body.classList.contains("dark") ? "☀️" : "🌙";
   localStorage.setItem("theme", body.classList.contains("dark") ? "dark" : "light");
 });
 
 window.addEventListener("load", function () {
   if (localStorage.getItem("theme") === "dark") {
     body.classList.add("dark");
-    toggleBtn.textContent = "☀️ Light Mode";
+    toggleBtn.textContent = "☀️";
   }
 });
