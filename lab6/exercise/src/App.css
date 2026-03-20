@@ -23,7 +23,6 @@ h1 {
   color: #1a1a2e;
 }
 
-/* ── Profile Card ─────────────────────────────── */
 .card {
   background: white;
   border-radius: 16px;
@@ -46,7 +45,6 @@ h1 {
   margin-bottom: 24px;
 }
 
-/* ── Skill Badges ─────────────────────────────── */
 .skills {
   display: flex;
   flex-wrap: wrap;
@@ -63,7 +61,6 @@ h1 {
   font-size: 0.85rem;
 }
 
-/* ── Like Button ──────────────────────────────── */
 .like-btn {
   background: white;
   border: 2px solid #e94560;
